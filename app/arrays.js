@@ -26,38 +26,53 @@ exports.arraysAnswers = {
         //        return index;
         //    }
         //});
-        while( arr.indexOf(item) !== -1){
-            arr.splice(arr.findIndex(function (element ,index) {
-                if(element === item){
+        while (arr.indexOf(item) !== -1) {
+            arr.splice(arr.findIndex(function (element, index) {
+                if (element === item) {
                     return index;
                 }
-            }),1);
+            }), 1);
         }
         return arr;
     },
 
     append: function (arr, item) {
-
+        arr.push(item);
+        return arr;
     },
 
     truncate: function (arr) {
-
+        arr.pop();
+        return arr;
     },
 
     prepend: function (arr, item) {
-
+        arr.unshift(item);
+        return arr;
     },
 
     curtail: function (arr) {
-
+        arr.shift();
+        return arr;
     },
 
     concat: function (arr1, arr2) {
-
+        return arr1.concat(arr2);
     },
 
     insert: function (arr, item, index) {
-
+        newArr = []; // []
+        var temp = arr[arr.length - 1];  // r last element
+        for (var i = 0; i < arr.length; i++) {
+            if (index !== i) {
+                newArr.push(arr[i]);
+            } else {
+                var temp = arr[i];
+                newArr[i] = item;
+                newArr.push(temp);
+            }
+        }
+        return newArr;
     },
 
     count: function (arr, item) {
