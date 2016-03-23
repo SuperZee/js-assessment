@@ -76,18 +76,46 @@ exports.arraysAnswers = {
     },
 
     count: function (arr, item) {
-
+        var count = 0;
+        arr.forEach(function (ele) {
+            if (ele === item) {
+                count++;
+            }
+        });
+        return count;
     },
 
     duplicates: function (arr) {
-
+        arr.sort(function (a, b) {
+            return a - b;
+        });
+        var count = 0;
+        var kkk = arr.filter(function (element, index) {
+            if (index === arr.length - 1) return;
+            if (arr[index] === arr[index + 1] && count === 0) {
+                count++;
+                return element;
+            } else {
+                count = 0;
+                return;
+            }
+        });
+        return kkk;
     },
 
     square: function (arr) {
-
+        return arr.map(function (currentValue) {
+            return currentValue * currentValue;
+        });
     },
 
     findAllOccurrences: function (arr, target) {
-
+        var kkk = [];
+        arr.forEach(function (element,index) {
+            if(element === target){
+                kkk.push(index);
+            }
+        });
+        return kkk;
     }
 };
