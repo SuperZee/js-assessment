@@ -14,14 +14,7 @@ exports.asyncAnswers = {
     },
 
     manipulateRemoteData: function (url) {
-        //console.log(url);
-        //fs.readFile(url,'utf8', function (err,data) {
-        //    jdata = data;
-        //})
-        //return new Promise((resolve,reject) => {
-        //    if(url){
-        //    }
-        //});
+        return url;
     }
 };
 

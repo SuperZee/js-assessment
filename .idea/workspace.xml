@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf0fed3a-4ee4-4ad5-ab8d-abdfeb0b5997" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ECMA6/let-const.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/async.js" afterPath="$PROJECT_DIR$/app/async.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bestPractices.js" afterPath="$PROJECT_DIR$/app/bestPractices.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/count.js" afterPath="$PROJECT_DIR$/app/count.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/flowControl.js" afterPath="$PROJECT_DIR$/app/flowControl.js" />
     </list>
     <ignored path="js-assessment.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +29,8 @@
       <file leaf-file-name="async.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/async.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.6206896">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state vertical-scroll-proportion="-11.586206">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -46,18 +46,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flowControl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/flowControl.js">
+      <file leaf-file-name="count.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/count.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-3.6206896">
+              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="count.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/count.js">
+      <file leaf-file-name="flowControl.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/flowControl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.689655">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="let-const.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ECMA6/let-const.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -77,8 +87,10 @@
         <option value="$PROJECT_DIR$/../test/index.js" />
         <option value="$PROJECT_DIR$/appTest/promiseTest.js" />
         <option value="$PROJECT_DIR$/appTest/promiseReadFileStat.js" />
-        <option value="$PROJECT_DIR$/app/async.js" />
         <option value="$PROJECT_DIR$/app/bestPractices.js" />
+        <option value="$PROJECT_DIR$/app/async.js" />
+        <option value="$PROJECT_DIR$/app/count.js" />
+        <option value="$PROJECT_DIR$/app/flowControl.js" />
       </list>
     </option>
   </component>
@@ -163,35 +175,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js-assessment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js-assessment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js-assessment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js-assessment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="ECMA6" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -217,7 +201,7 @@
       <recent name="$PROJECT_DIR$/testdata" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.async.js">
+  <component name="RunManager" selected="Node.js.count.js">
     <configuration default="false" name="async.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="async.js" working-dir="$PROJECT_DIR$/app">
       <method />
     </configuration>
@@ -228,6 +212,9 @@
       <method />
     </configuration>
     <configuration default="false" name="promiseReadFileStat.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="promiseReadFileStat.js" working-dir="$PROJECT_DIR$/appTest">
+      <method />
+    </configuration>
+    <configuration default="false" name="count.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="count.js" working-dir="$PROJECT_DIR$/app">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -278,18 +265,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.async.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.index.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.promiseTest.js" />
       <item index="3" class="java.lang.String" itemvalue="Node.js.promiseReadFileStat.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.count.js" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.async.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.promiseReadFileStat.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.promiseTest.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.index.js" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.count.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.async.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.promiseReadFileStat.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.promiseTest.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.index.js" />
       </list>
     </recent_temporary>
   </component>
@@ -458,22 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/async.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6206896">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/flowControl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/bestPractices.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.37931">
@@ -482,7 +455,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/async.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.586206">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/count.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6206896">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/flowControl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.689655">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ECMA6/let-const.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
