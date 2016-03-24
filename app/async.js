@@ -1,21 +1,27 @@
 exports = (typeof window === 'undefined') ? global : window;
-
 exports.asyncAnswers = {
     async: function (value) {
         //value true
-        console.log('Promise found');
-        return new Promise((resolve,reject)=>{
+        //console.log('Promise found');
+        return new Promise((resolve, reject)=> {
             //异步操作
-            if(value){
+            if (value) {
                 resolve(value);
-            }else{
+            } else {
                 reject(value);
             }
         });
     },
 
     manipulateRemoteData: function (url) {
-
+        //console.log(url);
+        //fs.readFile(url,'utf8', function (err,data) {
+        //    jdata = data;
+        //})
+        //return new Promise((resolve,reject) => {
+        //    if(url){
+        //    }
+        //});
     }
 };
 
